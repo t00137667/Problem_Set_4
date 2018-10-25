@@ -16,7 +16,8 @@ public class ClosingWindow1 extends JFrame {
 	setSize(275,170);
 	setLocation(250,200);
 	// take non-standard action when the window is closed
-	addWindowListener(new WindowEventHandler());		
+	addWindowListener(new WindowEventHandler());
+	setVisible(true);
   }
 
   // specify the window-closing behaviour using an adapter class
